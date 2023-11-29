@@ -25,7 +25,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
-        //list...showFormForAdd...showFormForUpdate...save...delete
+        
         http.authorizeHttpRequests(configurer ->
                         configurer
                                 .requestMatchers("/").hasRole("EMPLOYEE")
@@ -34,8 +34,6 @@ public class SecurityConfig {
                                 .requestMatchers("/showFormForUpdate/**").hasRole("MANAGER")
                                 .requestMatchers("/save/**").hasRole("MANAGER")
                                 .requestMatchers("/delete/**").hasRole("ADMIN")
-                                .requestMatchers("/leaders/**").hasRole("MANAGER")
-                                .requestMatchers("/systems/**").hasRole("ADMIN")
                                 .anyRequest().authenticated()
                 )
                 .formLogin(form ->
