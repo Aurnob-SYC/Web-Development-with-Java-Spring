@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<h2>ompany Home Page</h2>
+<h2>Company Home Page</h2>
 <hr>
 
 <p>
@@ -38,6 +38,24 @@
     <p>
         <a th:href="@{employees/showFormForAdd}">Add Employees</a>
         (Only for Manager)
+    </p>
+
+</div>
+
+<div sec:authorize="hasRole('MANAGER')">
+
+    <p>
+        <a th:href="@{/leaders}">Leadership Meetings</a>
+        (Only for Manager)
+    </p>
+
+</div>
+
+<div sec:authorize="hasRole('ADMIN')">
+
+    <p>
+        <a th:href="@{systems}">Admin Meetings</a>
+        (Only for Admin)
     </p>
 
 </div>

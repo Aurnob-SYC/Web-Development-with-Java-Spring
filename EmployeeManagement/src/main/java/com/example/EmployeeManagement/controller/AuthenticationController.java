@@ -26,6 +26,14 @@ public class AuthenticationController {
         return "employees/access-denied";
     }
 
+    @GetMapping("/leaders")
+    public String showLeaders() {
+        return "employees/leaders";
+    }
 
+    @GetMapping("/systems")
+    public String showSystems() {
+        return "employees/systems";
+    }
 
 }

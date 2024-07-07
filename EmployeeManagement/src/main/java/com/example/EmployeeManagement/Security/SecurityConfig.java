@@ -1,9 +1,8 @@
 package com.example.EmployeeManagement.Security;
 
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.HttpMethod;
-import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -16,30 +15,51 @@ import javax.sql.DataSource;
 
 @Configuration
 public class SecurityConfig {
-    @Bean
-    public UserDetailsManager userDetailsManager(DataSource dataSource) {
 
-        return new JdbcUserDetailsManager(dataSource);
+    @Bean
+    public InMemoryUserDetailsManager userDetailsManager() {
+
+        UserDetails john = User.builder()
+                .username("john")
+                .password("{noop}test123")
+                .roles("EMPLOYEE")
+                .build();
+
+        UserDetails mary = User.builder()
+                .username("mary")
+                .password("{noop}test123")
+                .roles("EMPLOYEE", "MANAGER")
+                .build();
+
+        UserDetails susan = User.builder()
+                .username("susan")
+                .password("{noop}test123")
+                .roles("EMPLOYEE", "MANAGER", "ADMIN")
+                .build();
+
+        return new InMemoryUserDetailsManager(john, mary, susan);
     }
+
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
-        
         http.authorizeHttpRequests(configurer ->
                         configurer
                                 .requestMatchers("/").hasRole("EMPLOYEE")
-                                .requestMatchers("/list").hasRole("EMPLOYEE")
-                                .requestMatchers("/showFormForAdd/**").hasRole("MANAGER")
-                                .requestMatchers("/showFormForUpdate/**").hasRole("MANAGER")
-                                .requestMatchers("/save/**").hasRole("MANAGER")
-                                .requestMatchers("/delete/**").hasRole("ADMIN")
+                                .requestMatchers("employees/list").hasRole("EMPLOYEE")
+                                .requestMatchers("employees/showFormForAdd/**").hasRole("MANAGER")
+                                .requestMatchers("employees/showFormForUpdate/**").hasRole("MANAGER")
+                                .requestMatchers("employees/save/**").hasRole("MANAGER")
+                                .requestMatchers("employees/delete/**").hasRole("ADMIN")
+                                .requestMatchers("/leaders/**").hasRole("MANAGER")
+                                .requestMatchers("/systems/**").hasRole("ADMIN")
                                 .anyRequest().authenticated()
                 )
                 .formLogin(form ->
                         form
                                 .loginPage("/showMyLoginPage")
-                                .loginProcessingUrl("/authenticateTheUser")
+                                .loginProcessingUrl("/authenticateTheUser") // authenticateTheUser built in SF
                                 .permitAll()
                 )
                 .logout(logout -> logout.permitAll()
