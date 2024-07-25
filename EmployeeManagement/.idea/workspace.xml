@@ -7,8 +7,8 @@
     <list default="true" id="281536fa-678d-46d8-8a30-e97aa6d64436" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/EmployeeManagement/Security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/EmployeeManagement/Security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employees/leaders.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employees/leaders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employees/systems.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employees/systems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/EmployeeManagement/Security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/EmployeeManagement/Security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/EmployeeManagement/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/EmployeeManagement/controller/AuthenticationController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +40,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "S:/projects/Web-Development-with-Java-Spring/EmployeeManagement",
+    "last_opened_file_path": "S:/projects/cm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "ed0d6278faa2943097ce0819f9472539",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -65,7 +74,11 @@
       <option name="presentableId" value="Default" />
       <updated>1720394787868</updated>
       <workItem from="1720394789447" duration="24000" />
-      <workItem from="1720394842771" duration="1033000" />
+      <workItem from="1720394842771" duration="1263000" />
+      <workItem from="1720405683050" duration="3166000" />
+      <workItem from="1720455072645" duration="1281000" />
+      <workItem from="1720494186780" duration="98000" />
+      <workItem from="1720505463463" duration="570000" />
     </task>
     <servers />
   </component>

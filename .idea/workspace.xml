@@ -1,35 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8d007631-acba-43f5-b2ea-4aedc9097b11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/EmployeeManagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/Security/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/dao/RoleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/user/WebUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/registration-confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/registration-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/Security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/Security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/java/com/example/EmployeeManagement/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/list-employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/list-employees.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagement/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagement/target/classes/com/example/EmployeeManagement/Security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/target/classes/com/example/EmployeeManagement/Security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagement/target/classes/com/example/EmployeeManagement/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/target/classes/com/example/EmployeeManagement/controller/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagement/target/classes/templates/employees/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/target/classes/templates/employees/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagement/target/classes/templates/employees/list-employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/target/classes/templates/employees/list-employees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagement/target/classes/templates/employees/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/target/classes/templates/employees/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2iwHfW3NvrVebDV1w4RXuPzVHji" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "S:/projects/Web-Development-with-Java-Spring/EmployeeManagement",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;S:/projects/bonus-code-spring-boot-spring-mvc-security-user-registration&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ed0d6278faa2943097ce0819f9472539&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\projects\Web-Development-with-Java-Spring\EmployeeManagement\src\main\java\com\example\EmployeeManagement" />
+      <recent name="S:\projects\Web-Development-with-Java-Spring\EmployeeManagement\src\main\resources\templates\employees" />
+      <recent name="S:\projects\Web-Development-with-Java-Spring\EmployeeManagement\src\main\java\com\example\EmployeeManagement\service" />
+      <recent name="S:\projects\Web-Development-with-Java-Spring\EmployeeManagement\src\main\java\com\example\EmployeeManagement\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\projects\Web-Development-with-Java-Spring\EmployeeManagement\src\main\resources\templates\employees" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.EmployeeManagement.Security" />
+      <recent name="com.example.EmployeeManagement.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EmployeeManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EmployeeManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EmployeeManagement.EmployeeManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,6 +117,10 @@
       <option name="presentableId" value="Default" />
       <updated>1720394823021</updated>
       <workItem from="1720394824488" duration="17000" />
+      <workItem from="1720950613644" duration="3671000" />
+      <workItem from="1721363001005" duration="6677000" />
+      <workItem from="1721378788288" duration="3987000" />
+      <workItem from="1721880676453" duration="596000" />
     </task>
     <servers />
   </component>
