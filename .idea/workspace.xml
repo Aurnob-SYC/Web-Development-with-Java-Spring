@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d007631-acba-43f5-b2ea-4aedc9097b11" name="Changes" comment="hello">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/employee-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/employee-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/leaders.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/leaders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/list-employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/list-employees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/registration-confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/registration-confirmation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/registration-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagement/src/main/resources/templates/employees/registration-form.html" afterDir="false" />
-    </list>
+    <list default="true" id="8d007631-acba-43f5-b2ea-4aedc9097b11" name="Changes" comment="hello" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +92,7 @@
       <workItem from="1721363001005" duration="6677000" />
       <workItem from="1721378788288" duration="3987000" />
       <workItem from="1721880676453" duration="706000" />
-      <workItem from="1721897054263" duration="1062000" />
+      <workItem from="1721897054263" duration="1366000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1721884431903</created>
@@ -109,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721884431903</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hello">
+      <created>1721898402211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721898402211</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
